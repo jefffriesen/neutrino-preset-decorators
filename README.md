@@ -1,7 +1,26 @@
 # neutrino-preset-class-properties
 [![NPM version](https://img.shields.io/npm/v/neutrino-preset-class-properties.svg)](https://www.npmjs.com/package/neutrino-preset-class-properties)
 
-This project provides a [Neutrino](https://neutrino.js.org) preset for building [React](https://facebook.github.io/react) applications with [MobX](https://mobx.js.org) using decorators. It uses the official React preset and extends it with support for decorators (including support for class properties).
+This project provides a [Neutrino](https://neutrino.js.org) preset for transforming class properties. Uses the [Babel Class properties transform](https://babeljs.io/docs/plugins/transform-class-properties/) which includes:
+
+```js
+class Bork {
+    //Property initializer syntax
+    instanceProperty = "bork";
+    boundFunction = () => {
+      return this.instanceProperty;
+    }
+
+    //Static class properties
+    static staticProperty = "babelIsCool";
+    static staticFunction = function() {
+      return Bork.staticProperty;
+    }
+  }
+```
+
+If you're using Mobx with React, you'll need decorators, class properties and the React neutrino presets. Here's a single preset that will take care of that: [jke-neutrino-preset-react-mobx](https://github.com/joakimkemeny/jke-neutrino-preset-react-mobx)
+
 
 ## Usage
 
