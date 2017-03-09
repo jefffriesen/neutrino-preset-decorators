@@ -1,7 +1,7 @@
 {
-	"name": "jke-neutrino-preset-react-mobx",
+	"name": "neutrino-preset-class-properties",
 	"version": "0.1.1",
-	"description": "Neutrino preset for building React applications with MobX using decorators",
+	"description": "Neutrino preset for using the newer class properties (fields) and static properties.",
 	"keywords": [
 		"neutrino",
 		"neutrino-preset",
