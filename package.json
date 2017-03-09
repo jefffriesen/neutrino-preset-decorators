@@ -1,16 +1,16 @@
 {
-	"name": "neutrino-preset-class-properties",
+	"name": "neutrino-preset-decorators",
 	"version": "0.1.0",
-	"description": "Neutrino preset for using the newer class properties (fields) & static properties.",
+	"description": "Neutrino preset for using the newer decorators syntax.",
 	"keywords": [
 		"neutrino",
 		"neutrino-preset",
 		"react",
 		"mobx"
 	],
-	"homepage": "https://github.com/jefffriesen/neutrino-preset-class-properties#readme",
+	"homepage": "https://github.com/jefffriesen/neutrino-preset-decorators#readme",
 	"bugs": {
-		"url": "https://github.com/jefffriesen/neutrino-preset-class-properties/issues"
+		"url": "https://github.com/jefffriesen/neutrino-preset-decorators/issues"
 	},
 	"license": "Apache-2.0",
 	"files": [
@@ -20,13 +20,13 @@
 	"author": "Jeff Friesen",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/jefffriesen/neutrino-preset-class-properties.git"
+		"url": "https://github.com/jefffriesen/neutrino-preset-decorators.git"
 	},
 	"scripts": {
 		"test": "exit 0"
 	},
 	"dependencies": {
-		"babel-plugin-transform-class-properties": "^6.23.0"
+		"babel-plugin-transform-decorators-legacy": "^1.3.4"
 	},
 	"peerDependencies": {
 		"neutrino": ">=4.1.1"
