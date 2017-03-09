@@ -1,5 +1,5 @@
 # neutrino-preset-class-properties
-[![NPM version](https://img.shields.io/npm/v/neutrino-preset-class-properties.svg)](https://www.npmjs.com/package/neutrino-preset-class-properties) [![Build status](https://img.shields.io/travis/joakimkemeny/neutrino-preset-class-properties/master.svg)](https://travis-ci.org/joakimkemeny/nneutrino-preset-class-properties)
+[![NPM version](https://img.shields.io/npm/v/neutrino-preset-class-properties.svg)](https://www.npmjs.com/package/neutrino-preset-class-properties)
 
 This project provides a [Neutrino](https://neutrino.js.org) preset for building [React](https://facebook.github.io/react) applications with [MobX](https://mobx.js.org) using decorators. It uses the official React preset and extends it with support for decorators (including support for class properties).
 
