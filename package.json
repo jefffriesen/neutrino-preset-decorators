@@ -1,6 +1,6 @@
 {
 	"name": "neutrino-preset-class-properties",
-	"version": "0.1.1",
+	"version": "0.1.0",
 	"description": "Neutrino preset for using the newer class properties (fields) & static properties.",
 	"keywords": [
 		"neutrino",
